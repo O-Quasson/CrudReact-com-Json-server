@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
-import api from "../api/api.js";
-import { FlatList } from 'react-native';
+import api from "../backend/api.js";
+import { FlatList, View, Text, TouchableOpacity, Dimensions } from 'react-native';
 
-const HomeScreen = ({}) => {
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
+
+const HomeScreen = ({navigation}) => {
     useEffect(() => {
         api.get(`/people`)
             .then((resposta) => {
