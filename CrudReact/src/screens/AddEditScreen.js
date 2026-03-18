@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { View, TextInput, Button } from 'react-native';
 import styles from "../styles/styles.js";
 import { createPerson, updatePerson } from "../backend/peopleCrud.js";
-import { create } from "json-server";
 
 export default function AddEditScreen({ route, navigation }) {
     const person = route.params?.person;

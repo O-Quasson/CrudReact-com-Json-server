@@ -1,4 +1,4 @@
-import { api } from "./configApi.js";
+import api from "./configApi.js";
 
 export async function getPeople() {
     const response = await fetch(`${api}/people`);
