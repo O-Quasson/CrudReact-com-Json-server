@@ -9,13 +9,21 @@ const windowHeight = Dimensions.get('window').height;
 const HomeScreen = ({navigation}) => {
 
     const [people, setPeople] = useState([]);
-    async function loadPeople(){
-        const data = await getPeople();
-        setPeople(data);
+    let [filtro, setfiltro] = useState("");
+
+    const filtrar = (texto) => {
+        if((isNaN(texto))&&(texto.length>0)){
+            setfiltro(`&name=${encodeURIComponent(texto)}`);
+        }
     }
 
+    async function loadPeople(){
+            const data = await getPeople(filtro);
+            setPeople(data);
+        }
+
     useEffect(() => {
-        loadPeople();
+        loadPeople(filtro);
     }, []);
 
     return (

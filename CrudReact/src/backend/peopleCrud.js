@@ -1,7 +1,7 @@
 import api from "./configApi.js";
 
-export async function getPeople() {
-    const response = await fetch(`${api}/people`);
+export async function getPeople(filtro) {
+    const response = await fetch(`${api}/people/${filtro}`);
 
     const data = await response.json();
 
