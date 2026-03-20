@@ -35,7 +35,6 @@ export default function AddEditScreen({ route, navigation }) {
                 
                 navigation.goBack();
             }else{
-                console.log("Erro! O código tá uma merda e não funciona!")
                 Alert.alert("Erro!", "Nome e email devem ser preenchidos", [{text: "OK", onPress: () => console.log("OK Pressed")}], {cancelable: true});
             }
             
