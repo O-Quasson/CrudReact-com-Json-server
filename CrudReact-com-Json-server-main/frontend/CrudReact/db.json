@@ -1,0 +1,355 @@
+  {
+    "people": [
+      {
+        "id": "1",
+        "firstname": "João",
+        "lastname": "Silva",
+        "email": "joao.silva@email.com",
+        "serie_favorita": "Breaking Bad"
+      },
+      {
+        "id": "2",
+        "firstname": "Maria",
+        "lastname": "Oliveira",
+        "email": "maria.oliveira@email.com",
+        "serie_favorita": "Friends"
+      },
+      {
+        "id": "3",
+        "firstname": "Pedro",
+        "lastname": "Santos",
+        "email": "pedro.santos@email.com",
+        "serie_favorita": "The Last of Us"
+      },
+      {
+        "id": "4",
+        "firstname": "Ana",
+        "lastname": "Costa",
+        "email": "ana.costa@email.com",
+        "serie_favorita": "Stranger Things"
+      },
+      {
+        "id": "5",
+        "firstname": "Lucas",
+        "lastname": "Pereira",
+        "email": "lucas.pereira@email.com",
+        "serie_favorita": "The Office"
+      },
+      {
+        "id": "6",
+        "firstname": "Julia",
+        "lastname": "Rodrigues",
+        "email": "julia.rodrigues@email.com",
+        "serie_favorita": "Grey's Anatomy"
+      },
+      {
+        "id": "7",
+        "firstname": "Gabriel",
+        "lastname": "Almeida",
+        "email": "gabriel.almeida@email.com",
+        "serie_favorita": "Game of Thrones"
+      },
+      {
+        "id": "8",
+        "firstname": "Beatriz",
+        "lastname": "Nascimento",
+        "email": "beatriz.nascimento@email.com",
+        "serie_favorita": "The Crown"
+      },
+      {
+        "id": "9",
+        "firstname": "Mateus",
+        "lastname": "Lima",
+        "email": "mateus.lima@email.com",
+        "serie_favorita": "Better Call Saul"
+      },
+      {
+        "id": "10",
+        "firstname": "Larissa",
+        "lastname": "Araújo",
+        "email": "larissa.araujo@email.com",
+        "serie_favorita": "Euphoria"
+      },
+      {
+        "id": "11",
+        "firstname": "Rafael",
+        "lastname": "Fernandes",
+        "email": "rafael.fernandes@email.com",
+        "serie_favorita": "Succession"
+      },
+      {
+        "id": "12",
+        "firstname": "Camila",
+        "lastname": "Carvalho",
+        "email": "camila.carvalho@email.com",
+        "serie_favorita": "The Bear"
+      },
+      {
+        "id": "13",
+        "firstname": "Gustavo",
+        "lastname": "Gomes",
+        "email": "gustavo.gomes@email.com",
+        "serie_favorita": "Dark"
+      },
+      {
+        "id": "14",
+        "firstname": "Isabela",
+        "lastname": "Martins",
+        "email": "isabela.martins@email.com",
+        "serie_favorita": "Bridgerton"
+      },
+      {
+        "id": "15",
+        "firstname": "Tiago",
+        "lastname": "Rocha",
+        "email": "tiago.rocha@email.com",
+        "serie_favorita": "Peaky Blinders"
+      },
+      {
+        "id": "16",
+        "firstname": "Manuela",
+        "lastname": "Ribeiro",
+        "email": "manuela.ribeiro@email.com",
+        "serie_favorita": "Ted Lasso"
+      },
+      {
+        "id": "17",
+        "firstname": "Bruno",
+        "lastname": "Rezende",
+        "email": "bruno.rezende@email.com",
+        "serie_favorita": "The Boys"
+      },
+      {
+        "id": "18",
+        "firstname": "Fernanda",
+        "lastname": "Sousa",
+        "email": "fernanda.sousa@email.com",
+        "serie_favorita": "The White Lotus"
+      },
+      {
+        "id": "19",
+        "firstname": "Felipe",
+        "lastname": "Mendes",
+        "email": "felipe.mendes@email.com",
+        "serie_favorita": "Narcos"
+      },
+      {
+        "id": "20",
+        "firstname": "Amanda",
+        "lastname": "Vieira",
+        "email": "amanda.vieira@email.com",
+        "serie_favorita": "Black Mirror"
+      },
+      {
+        "id": "21",
+        "firstname": "Ricardo",
+        "lastname": "Barbosa",
+        "email": "ricardo.barbosa@email.com",
+        "serie_favorita": "House of Cards"
+      },
+      {
+        "id": "22",
+        "firstname": "Letícia",
+        "lastname": "Melo",
+        "email": "leticia.melo@email.com",
+        "serie_favorita": "How I Met Your Mother"
+      },
+      {
+        "id": "23",
+        "firstname": "Daniel",
+        "lastname": "Cardoso",
+        "email": "daniel.cardoso@email.com",
+        "serie_favorita": "Severance"
+      },
+      {
+        "id": "24",
+        "firstname": "Bianca",
+        "lastname": "Teixeira",
+        "email": "bianca.teixeira@email.com",
+        "serie_favorita": "The Handmaid's Tale"
+      },
+      {
+        "id": "25",
+        "firstname": "Leonardo",
+        "lastname": "Borges",
+        "email": "leonardo.borges@email.com",
+        "serie_favorita": "Cobra Kai"
+      },
+      {
+        "id": "26",
+        "firstname": "Carolina",
+        "lastname": "Santana",
+        "email": "carolina.santana@email.com",
+        "serie_favorita": "Modern Family"
+      },
+      {
+        "id": "27",
+        "firstname": "Vinícius",
+        "lastname": "Duarte",
+        "email": "vinicius.duarte@email.com",
+        "serie_favorita": "Mindhunter"
+      },
+      {
+        "id": "28",
+        "firstname": "Heloísa",
+        "lastname": "Freitas",
+        "email": "heloisa.freitas@email.com",
+        "serie_favorita": "The Good Place"
+      },
+      {
+        "id": "29",
+        "firstname": "Eduardo",
+        "lastname": "Castro",
+        "email": "eduardo.castro@email.com",
+        "serie_favorita": "Sherlock"
+      },
+      {
+        "id": "30",
+        "firstname": "Vitoria",
+        "lastname": "Lopes",
+        "email": "vitoria.lopes@email.com",
+        "serie_favorita": "The Witcher"
+      },
+      {
+        "id": "31",
+        "firstname": "André",
+        "lastname": "Machado",
+        "email": "andre.machado@email.com",
+        "serie_favorita": "Vikings"
+      },
+      {
+        "id": "32",
+        "firstname": "Alice",
+        "lastname": "Cavalcanti",
+        "email": "alice.cavalcanti@email.com",
+        "serie_favorita": "Fleabag"
+      },
+      {
+        "id": "33",
+        "firstname": "Samuel",
+        "lastname": "Dias",
+        "email": "samuel.dias@email.com",
+        "serie_favorita": "Suits"
+      },
+      {
+        "id": "34",
+        "firstname": "Lorena",
+        "lastname": "Braga",
+        "email": "lorena.braga@email.com",
+        "serie_favorita": "Emily in Paris"
+      },
+      {
+        "id": "35",
+        "firstname": "Igor",
+        "lastname": "Fonseca",
+        "email": "igor.fonseca@email.com",
+        "serie_favorita": "True Detective"
+      },
+      {
+        "id": "36",
+        "firstname": "Yasmin",
+        "lastname": "Viana",
+        "email": "yasmin.viana@email.com",
+        "serie_favorita": "Sex Education"
+      },
+      {
+        "id": "37",
+        "firstname": "Caio",
+        "lastname": "Moreira",
+        "email": "caio.moreira@email.com",
+        "serie_favorita": "The Mandalorian"
+      },
+      {
+        "id": "38",
+        "firstname": "Clara",
+        "lastname": "Siqueira",
+        "email": "clara.siqueira@email.com",
+        "serie_favorita": "This Is Us"
+      },
+      {
+        "id": "39",
+        "firstname": "Renan",
+        "lastname": "Nunes",
+        "email": "renan.nunes@email.com",
+        "serie_favorita": "Ozark"
+      },
+      {
+        "id": "40",
+        "firstname": "Cecília",
+        "lastname": "Assis",
+        "email": "cecilia.assis@email.com",
+        "serie_favorita": "The Queen's Gambit"
+      },
+      {
+        "id": "41",
+        "firstname": "Hugo",
+        "lastname": "Magalhães",
+        "email": "hugo.magalhaes@email.com",
+        "serie_favorita": "Chernobyl"
+      },
+      {
+        "id": "42",
+        "firstname": "Maísa",
+        "lastname": "Batista",
+        "email": "maisa.batista@email.com",
+        "serie_favorita": "La Casa de Papel"
+      },
+      {
+        "id": "43",
+        "firstname": "Vitor",
+        "lastname": "Miranda",
+        "email": "vitor.miranda@email.com",
+        "serie_favorita": "Brooklyn Nine-Nine"
+      },
+      {
+        "id": "44",
+        "firstname": "Pietra",
+        "lastname": "Farias",
+        "email": "pietra.farias@email.com",
+        "serie_favorita": "Doctor Who"
+      },
+      {
+        "id": "45",
+        "firstname": "Marcos",
+        "lastname": "Andrade",
+        "email": "marcos.andrade@email.com",
+        "serie_favorita": "The Walking Dead"
+      },
+      {
+        "id": "46",
+        "firstname": "Sara",
+        "lastname": "Monteiro",
+        "email": "sara.monteiro@email.com",
+        "serie_favorita": "Supernatural"
+      },
+      {
+        "id": "47",
+        "firstname": "Murilo",
+        "lastname": "Correia",
+        "email": "murilo.correia@email.com",
+        "serie_favorita": "Mad Men"
+      },
+      {
+        "id": "48",
+        "firstname": "Elisa",
+        "lastname": "Azevedo",
+        "email": "elisa.azevedo@email.com",
+        "serie_favorita": "House of the Dragon"
+      },
+      {
+        "id": "49",
+        "firstname": "Diogo",
+        "lastname": "Leal",
+        "email": "diogo.leal@email.com",
+        "serie_favorita": "Andor"
+      },
+      {
+        "id": "50",
+        "firstname": "Bárbara",
+        "lastname": "Moura",
+        "email": "barbara.moura@email.com",
+        "serie_favorita": "Schitt's Creek"
+      }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+  }
