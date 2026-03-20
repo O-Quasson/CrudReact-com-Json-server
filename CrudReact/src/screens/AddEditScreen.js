@@ -9,28 +9,35 @@ export default function AddEditScreen({ route, navigation }) {
     const [firstname, setfirstname] = useState(person?.firstname);
     const [lastname, setlastname] = useState(person?.lastname);
     const [email, setemail] = useState(person?.email);
-    const [serie, setserie] = useState(person?.serie_favorita || "Nenhuma");
+    const [serie, setserie] = useState(person?.serie_favorita);
 
     async function save(){
         //tendo q fazer a verificação aqui pq ele n reconhece nenhum método na condição dentro do if por algum motivo
         //mesmo assim ainda não funciona, que merda
-        let tfirstname = firstname.trim()||"";
-        let tlastname = lastname.trim()||"";
-        let temail = email.trim()||"";
-        let tserie = serie.trim();
+        let tfirstname = firstname;
+        let tlastname = lastname;
+        let temail = email;
+        let tserie = serie||"Nenhuma";
 
-        if((tfirstname.length>0)&&(tlastname.length>0)&&(temail.length>0)){
-            const data = { tfirstname, tlastname, temail, tserie };
-
-             if(person){
-                await updatePerson(person.id, data);
-            }else{
-                await createPerson(data);
-            } 
-            
-            navigation.goBack();
+        if((tfirstname===undefined)||(tlastname===undefined)||(temail===undefined)){
+            console.log("Erro! O código tá uma merda e não funciona!")
+            Alert.alert("Erro!", "Nome e email devem ser preenchidos", [{text: "OK", onPress: () => console.log("OK Pressed")}], {cancelable: true});
         }else{
-            Alert.alert("Erro!", "Nome e email devem ser preenchidos");
+            if((tfirstname.trim().length>0)&&(tlastname.trim().length>0)&&(temail.trim().length>0)){
+                const data = { tfirstname, tlastname, temail, tserie };
+    
+                 if(person){
+                    await updatePerson(person.id, data);
+                }else{
+                    await createPerson(data);
+                } 
+                
+                navigation.goBack();
+            }else{
+                console.log("Erro! O código tá uma merda e não funciona!")
+                Alert.alert("Erro!", "Nome e email devem ser preenchidos", [{text: "OK", onPress: () => console.log("OK Pressed")}], {cancelable: true});
+            }
+            
         }
 
     }
