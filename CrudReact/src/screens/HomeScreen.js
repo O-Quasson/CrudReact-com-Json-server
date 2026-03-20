@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FlatList, View, Text, Button, Dimensions } from 'react-native';
+import { FlatList, View, Text, Button, Dimensions, TextInput } from 'react-native';
 import styles from "../styles/styles.js";
 import { getPeople, deletePerson } from "../backend/peopleCrud.js";
 
@@ -13,22 +13,24 @@ const HomeScreen = ({navigation}) => {
 
     const filtrar = (texto) => {
         if((isNaN(texto))&&(texto.length>0)){
-            setfiltro(`&name=${encodeURIComponent(texto)}`);
+            setfiltro(`&firstname=${encodeURIComponent(texto)}`);
         }
     }
 
     async function loadPeople(){
             const data = await getPeople(filtro);
+            console.log(data)
             setPeople(data);
         }
 
     useEffect(() => {
         loadPeople(filtro);
-    }, []);
+    }, [filtro]);
 
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Pessoas</Text>
+            <TextInput placeholder="Pesquisar por nome" onSubmitEditing={(texto) => filtrar(texto.nativeEvent.text)} style={[{backgroundColor: "#e6e6e6", padding: 5, marginBottom: 5}]}></TextInput>
             <Button title="Adicionar pessoa" onPress={() => navigation.navigate("AddEdit")} />
 
             <FlatList 

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api = "https://slimy-jars-win.loca.lt"
+const api = "https://evil-knives-follow.loca.lt"
 
 // const api = axios.get({
 //     baseURL: "https://easy-points-talk.loca.lt"
