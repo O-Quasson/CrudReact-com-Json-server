@@ -19,4 +19,8 @@ Foram adicionados 2 novos campos: phone e série favorita. Os campos foram adici
 
 Para a navegação de telas foi utlizado a biblioteca do react navigation
 
+A função de buscar pessoas foi implementada por meio de um TextInput ligado a um estado (useState) de filtro. O filtro funciona buscando os registros cujo primeiro nome forem iguais ao escrito no campo de busca. Minha solução para esse desafio foi sempre fazer uma requisição com um estado de filtro vazio e, quando alterado esse estado, o filtro passaria a ter um valor, que buscaria por todos os registros cujo campo "firstname" fosse igual ao buscado
 
+Para o indicador de carregamento, foi-se utilizado o ActivityIndicator e um useState. O useState vem com o valor true por padrão e, assim que a api retorna uma resposta, ele define o estado "loading" como false. Foi criada uma função com uma estrutura if/else que, caso o valor do estado "loading" estivesse como true, ele exibiria na tela somente um ActivityIndicator. Porém, caso contrário, ele exibiria na tela os dados retornados da api
+
+Em relação a mensagem de erro caso a api estivesse indisponível, eu utilizei um try/catch na requisição da api e um estado de erro com valor padrão "false". Caso a api retornasse uma mensagem de erro, o valor do estado seria alterado para true e seria exibida uma mensagem na tela. Caso contrário, os dados seriam armazenados no useState people e seriam exibidos na tela no compnente FlatList. Para exibição da mensagem de erro, foi utilizado o módulo nativo do react native "sweetalert2", que permite a exibição de mensagens personalizadas na tela. 
