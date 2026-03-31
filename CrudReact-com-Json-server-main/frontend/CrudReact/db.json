@@ -1,17 +1,27 @@
 {
   "people": [
     {
+      "id": "1",
+      "firstname": "João",
+      "lastname": "Silva",
+      "email": "joao.silva@email.com",
+      "phone": "(00) 00000-0000",
+      "serie_favorita": "Breaking Bad"
+    },
+    {
+      "id": "2",
       "firstname": "Maria",
       "lastname": "Oliveira",
       "email": "maria.oliveira@email.com",
-      "serie_favorita": "Nenhuma",
-      "id": "2"
+      "phone": "(00) 00000-0000",
+      "serie_favorita": "Friends"
     },
     {
       "id": "3",
       "firstname": "Pedro",
       "lastname": "Santos",
       "email": "pedro.santos@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Last of Us"
     },
     {
@@ -19,6 +29,7 @@
       "firstname": "Ana",
       "lastname": "Costa",
       "email": "ana.costa@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Stranger Things"
     },
     {
@@ -26,6 +37,7 @@
       "firstname": "Lucas",
       "lastname": "Pereira",
       "email": "lucas.pereira@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Office"
     },
     {
@@ -33,6 +45,7 @@
       "firstname": "Julia",
       "lastname": "Rodrigues",
       "email": "julia.rodrigues@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Grey's Anatomy"
     },
     {
@@ -40,6 +53,7 @@
       "firstname": "Gabriel",
       "lastname": "Almeida",
       "email": "gabriel.almeida@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Game of Thrones"
     },
     {
@@ -47,6 +61,7 @@
       "firstname": "Beatriz",
       "lastname": "Nascimento",
       "email": "beatriz.nascimento@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Crown"
     },
     {
@@ -54,6 +69,7 @@
       "firstname": "Mateus",
       "lastname": "Lima",
       "email": "mateus.lima@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Better Call Saul"
     },
     {
@@ -61,6 +77,7 @@
       "firstname": "Larissa",
       "lastname": "Araújo",
       "email": "larissa.araujo@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Euphoria"
     },
     {
@@ -68,6 +85,7 @@
       "firstname": "Rafael",
       "lastname": "Fernandes",
       "email": "rafael.fernandes@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Succession"
     },
     {
@@ -75,6 +93,7 @@
       "firstname": "Camila",
       "lastname": "Carvalho",
       "email": "camila.carvalho@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Bear"
     },
     {
@@ -82,6 +101,7 @@
       "firstname": "Gustavo",
       "lastname": "Gomes",
       "email": "gustavo.gomes@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Dark"
     },
     {
@@ -89,6 +109,7 @@
       "firstname": "Isabela",
       "lastname": "Martins",
       "email": "isabela.martins@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Bridgerton"
     },
     {
@@ -96,6 +117,7 @@
       "firstname": "Tiago",
       "lastname": "Rocha",
       "email": "tiago.rocha@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Peaky Blinders"
     },
     {
@@ -103,6 +125,7 @@
       "firstname": "Manuela",
       "lastname": "Ribeiro",
       "email": "manuela.ribeiro@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Ted Lasso"
     },
     {
@@ -110,6 +133,7 @@
       "firstname": "Bruno",
       "lastname": "Rezende",
       "email": "bruno.rezende@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Boys"
     },
     {
@@ -117,6 +141,7 @@
       "firstname": "Fernanda",
       "lastname": "Sousa",
       "email": "fernanda.sousa@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The White Lotus"
     },
     {
@@ -124,6 +149,7 @@
       "firstname": "Felipe",
       "lastname": "Mendes",
       "email": "felipe.mendes@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Narcos"
     },
     {
@@ -131,6 +157,7 @@
       "firstname": "Amanda",
       "lastname": "Vieira",
       "email": "amanda.vieira@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Black Mirror"
     },
     {
@@ -138,6 +165,7 @@
       "firstname": "Ricardo",
       "lastname": "Barbosa",
       "email": "ricardo.barbosa@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "House of Cards"
     },
     {
@@ -145,6 +173,7 @@
       "firstname": "Letícia",
       "lastname": "Melo",
       "email": "leticia.melo@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "How I Met Your Mother"
     },
     {
@@ -152,6 +181,7 @@
       "firstname": "Daniel",
       "lastname": "Cardoso",
       "email": "daniel.cardoso@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Severance"
     },
     {
@@ -159,6 +189,7 @@
       "firstname": "Bianca",
       "lastname": "Teixeira",
       "email": "bianca.teixeira@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Handmaid's Tale"
     },
     {
@@ -166,6 +197,7 @@
       "firstname": "Leonardo",
       "lastname": "Borges",
       "email": "leonardo.borges@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Cobra Kai"
     },
     {
@@ -173,6 +205,7 @@
       "firstname": "Carolina",
       "lastname": "Santana",
       "email": "carolina.santana@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Modern Family"
     },
     {
@@ -180,6 +213,7 @@
       "firstname": "Vinícius",
       "lastname": "Duarte",
       "email": "vinicius.duarte@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Mindhunter"
     },
     {
@@ -187,6 +221,7 @@
       "firstname": "Heloísa",
       "lastname": "Freitas",
       "email": "heloisa.freitas@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Good Place"
     },
     {
@@ -194,6 +229,7 @@
       "firstname": "Eduardo",
       "lastname": "Castro",
       "email": "eduardo.castro@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Sherlock"
     },
     {
@@ -201,6 +237,7 @@
       "firstname": "Vitoria",
       "lastname": "Lopes",
       "email": "vitoria.lopes@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Witcher"
     },
     {
@@ -208,6 +245,7 @@
       "firstname": "André",
       "lastname": "Machado",
       "email": "andre.machado@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Vikings"
     },
     {
@@ -215,6 +253,7 @@
       "firstname": "Alice",
       "lastname": "Cavalcanti",
       "email": "alice.cavalcanti@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Fleabag"
     },
     {
@@ -222,6 +261,7 @@
       "firstname": "Samuel",
       "lastname": "Dias",
       "email": "samuel.dias@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Suits"
     },
     {
@@ -229,6 +269,7 @@
       "firstname": "Lorena",
       "lastname": "Braga",
       "email": "lorena.braga@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Emily in Paris"
     },
     {
@@ -236,6 +277,7 @@
       "firstname": "Igor",
       "lastname": "Fonseca",
       "email": "igor.fonseca@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "True Detective"
     },
     {
@@ -243,6 +285,7 @@
       "firstname": "Yasmin",
       "lastname": "Viana",
       "email": "yasmin.viana@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Sex Education"
     },
     {
@@ -250,6 +293,7 @@
       "firstname": "Caio",
       "lastname": "Moreira",
       "email": "caio.moreira@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Mandalorian"
     },
     {
@@ -257,6 +301,7 @@
       "firstname": "Clara",
       "lastname": "Siqueira",
       "email": "clara.siqueira@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "This Is Us"
     },
     {
@@ -264,6 +309,7 @@
       "firstname": "Renan",
       "lastname": "Nunes",
       "email": "renan.nunes@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Ozark"
     },
     {
@@ -271,6 +317,7 @@
       "firstname": "Cecília",
       "lastname": "Assis",
       "email": "cecilia.assis@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Queen's Gambit"
     },
     {
@@ -278,6 +325,7 @@
       "firstname": "Hugo",
       "lastname": "Magalhães",
       "email": "hugo.magalhaes@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Chernobyl"
     },
     {
@@ -285,6 +333,7 @@
       "firstname": "Maísa",
       "lastname": "Batista",
       "email": "maisa.batista@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "La Casa de Papel"
     },
     {
@@ -292,6 +341,7 @@
       "firstname": "Vitor",
       "lastname": "Miranda",
       "email": "vitor.miranda@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Brooklyn Nine-Nine"
     },
     {
@@ -299,6 +349,7 @@
       "firstname": "Pietra",
       "lastname": "Farias",
       "email": "pietra.farias@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Doctor Who"
     },
     {
@@ -306,6 +357,7 @@
       "firstname": "Marcos",
       "lastname": "Andrade",
       "email": "marcos.andrade@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "The Walking Dead"
     },
     {
@@ -313,6 +365,7 @@
       "firstname": "Sara",
       "lastname": "Monteiro",
       "email": "sara.monteiro@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Supernatural"
     },
     {
@@ -320,6 +373,7 @@
       "firstname": "Murilo",
       "lastname": "Correia",
       "email": "murilo.correia@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Mad Men"
     },
     {
@@ -327,6 +381,7 @@
       "firstname": "Elisa",
       "lastname": "Azevedo",
       "email": "elisa.azevedo@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "House of the Dragon"
     },
     {
@@ -334,6 +389,7 @@
       "firstname": "Diogo",
       "lastname": "Leal",
       "email": "diogo.leal@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Andor"
     },
     {
@@ -341,14 +397,8 @@
       "firstname": "Bárbara",
       "lastname": "Moura",
       "email": "barbara.moura@email.com",
+      "phone": "(00) 00000-0000",
       "serie_favorita": "Schitt's Creek"
-    },
-    {
-      "id": "b592",
-      "firstname": "teste",
-      "lastname": "teste",
-      "email": "teste@email.com",
-      "serie_favorita": "Nenhuma"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
