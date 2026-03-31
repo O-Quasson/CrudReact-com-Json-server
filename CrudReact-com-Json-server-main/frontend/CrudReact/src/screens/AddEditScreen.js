@@ -59,20 +59,20 @@ export default function AddEditScreen({ route, navigation }) {
     }
 
     return(
-        <View style={[styles.container, {}]}>
-            <TextInput placeholder="First Name" value={firstname} onChangeText={setfirstname}/>
+        <View style={[styles.container, {display: "flex", gap: 5}]}>
+            <TextInput placeholder="First Name" value={firstname} onChangeText={setfirstname} style={[{backgroundColor: "#e6e6e6", padding: 5, marginBottom: 5, borderRadius: 5}]}/>
 
-            <TextInput placeholder="Last Name" value={lastname} onChangeText={setlastname}/>
+            <TextInput placeholder="Last Name" value={lastname} onChangeText={setlastname} style={[{backgroundColor: "#e6e6e6", padding: 5, marginBottom: 5, borderRadius: 5}]}/>
 
-            <TextInput placeholder="Email" value={email} onChangeText={setemail}/>
+            <TextInput placeholder="Email" value={email} onChangeText={setemail} style={[{backgroundColor: "#e6e6e6", padding: 5, marginBottom: 5, borderRadius: 5}]}/>
 
-            <MaskInput placeholder="Telefone" value={phone} onChangeText={(masked, unmasked) => {setphone(masked)}} mask={Masks.BRL_PHONE} keyboardType="numeric" />
+            <MaskInput placeholder="Telefone" value={phone} onChangeText={(masked, unmasked) => {setphone(masked)}} mask={Masks.BRL_PHONE} keyboardType="numeric" style={[{backgroundColor: "#e6e6e6", padding: 5, marginBottom: 5, borderRadius: 5}]}/>
 
-            <TextInput placeholder="Série Favorita" value={serie} onChangeText={seserie_favorita}/>
+            <TextInput placeholder="Série Favorita" value={serie} onChangeText={seserie_favorita} style={[{backgroundColor: "#e6e6e6", padding: 5, marginBottom: 5, borderRadius: 5}]}/>
 
-            <Button title="Salvar" onPress={save}/>
+            <Button title="Salvar" onPress={save} />
 
-            <Button title="Cancelar" onPress={() => navigation.goBack()}/>
+            <Button title="Cancelar" onPress={() => navigation.goBack()} />
         </View>
     )
 }
