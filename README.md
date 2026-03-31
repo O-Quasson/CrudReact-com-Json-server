@@ -1,5 +1,5 @@
 # Descrição do projeto
-Esse projeto é um aplicativo mobile feito como atividade com o objetivo de consumir uma api própria. O aplicativo carrega os dados da api e exibe-os em forma de uma lista, tematizada para mostrar dados de usuários e suas séries favoritas
+Esse projeto é um aplicativo mobile feito como atividade com o objetivo de consumir uma api própria. O aplicativo carrega os dados da api e exibe-os em forma de uma lista, mostrando nomes completos, emails e telefones dos usuários
 
 # Tecnologias utilizadas
 Para a criação do aplicativo, foi utilizado o framework do React Native e Sweetalert para o frontend e as bibliotecas json-server e localtunnel para o backend
@@ -13,4 +13,4 @@ Abra um terceiro prompt de comando, navegue até a pasta "backend" e digite o co
 No outro prompt de comando que está na pasta frontend, digite o comando "npx expo start" e escaneie o qr code gerado no console pelo seu aplicativo expo go
 
 # Explicação da solução
-O nível escolhido de desafio foi o Sênior (Avançado)
+O nível escolhido de desafio foi o Sênior (Avançado). O novo campo adicionado ao CRUD foi 
